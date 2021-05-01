@@ -14,10 +14,10 @@ First clone the repository:
 git clone https://github.com/hub-dao/hubdao-sdk.git
 ```
 
-Move into the pancakeswap-sdk working directory
+Move into the hubdao-sdk working directory
 
 ```sh
-cd pancakeswap-sdk/
+cd hubdao-sdk/
 ```
 
 Install dependencies
