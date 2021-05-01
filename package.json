@@ -1,16 +1,16 @@
 {
-  "name": "@pancakeswap-libs/sdk-v2",
+  "name": "@hubdao-finance/hubdao-sdk",
   "license": "MIT",
-  "version": "2.2.0",
-  "description": "🛠 An SDK for building applications on top of pancakeswap.",
+  "version": "1.0.0",
+  "description": "🛠 An SDK for building applications on top of hubdao.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancakeswap-sdk.git",
+  "repository": "https://github.com/hub-dao/hubdao-sdk.git",
   "keywords": [
-    "pancakeswap",
+    "hubdao",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
@@ -23,7 +23,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pancakeswap-libs/pancake-swap-core": "^0.1.0",
+    "@hubdao-finance/hubdao-core": "^0.1.1",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
